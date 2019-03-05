@@ -1,0 +1,67 @@
+.footer {
+	margin-top: 40px;
+	position: fixed;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.452);
+    text-align: center;
+    background-color: inherit;
+    /* background-color: rgba(255, 166, 0, 0.404); */
+}
+
+/* * {
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+};
+h1 {
+    color: white;
+    text-align: center;
+    padding: 3px;
+    background-color: chocolate;
+    border: 2px solid black;
+}
+section {
+    background-color: burlywood;
+}
+p {
+    color: green;
+}
+.container {
+    
+}
+#randomNum {
+    color: black;
+    font-size: 40px;
+    background-color: green;
+    height: 84px;
+    width: 310px;
+    border: 2px solid black;
+    float: left;
+}
+#winsLosses {
+    color: black;
+    background-color: aqua;
+    width: 310px;
+    border: 2px solid black;
+    float: left;
+}
+#crystals {
+    clear: both;
+}
+.crystalButton {
+    background-color: white;
+    padding: 5px;
+}
+#scoreP {
+    background-color: limegreen;
+    width: 310px;
+}
+#scoreSum {
+    font-size: 40px;
+    background-color: limegreen;
+    height: 84px;
+    width: 310px;
+} */

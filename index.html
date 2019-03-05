@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Collector Game</title>
+    <!-- Added link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center text-white bg-primary" >
+        <div class="container">
+            <h1>Crystals Collector!</h1>
+        </div>
+    </div>
+    
+    <div class="container card text-white bg-info">
+        <!-- <h2 class="text-white">How to Play This Game</h2> -->
+            <p>You will be give a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    
+    <!-- random number box & wins and losses box -->
+    <div class = "container text-white bg-warning card">
+        <div class="row">
+            <div class="col text-center">
+                <br>
+                <h1 id="randomNum">
+
+                </h1>
+            </div>
+            <div class="col winsLosses">
+                <br>
+                <h4 class = "wins">Wins:    <span id = "wins"></span></h4>
+                <br>
+                <h4 class = "losses">Losses:    <span id = "losses"></span></h4>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- four boxes for crystals -->
+    <div class="container text-center card">
+        <div class="row btn-group">
+            <div class="col">
+                <button type="button" class="btn crystalButton" id="arrow">
+                    <img src="assets/images/crystalArrowHead.jpg" class="img-thumbnail" alt="Arrow Head crystal">
+                </button>
+    
+            </div>
+            <div class="col">
+                <button type="button" class="btn crystalButton" id="heart">
+                    <img src="assets/images/crystalHeart.jpg" class="img-thumbnail" alt="Heart crystal">
+                </button>
+    
+            </div>
+            <div class="col">
+                <button type="button" class="btn crystalButton" id="oval">
+                    <img src="assets/images/crystalOvalDiamond.jpg" class="img-thumbnail" alt="Oval Diamond crystal">
+                </button>
+    
+            </div>
+            <div class="col">
+                <button type="button" class="btn crystalButton" id="round">
+                    <img src="assets/images/crystalRoundDiamond.jpg" class="img-thumbnail" alt="Round Diamond crystal">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- div containing total score paragraph and total score sum -->
+    <div class="container text-white bg-warning card">
+        <div class="bg-warning text-center">
+            <!-- Your total score is: -->
+            <h4 id="scoreP">Your total score is:
+            </h4>
+        </div>
+        <div class="bg-warning text-center">
+            <h2 class="text-center" id="scoreSum">
+            </h2>
+            <br>
+        </div>
+    </div>
+    <div class="footer">
+            <p>Eric Nkurunziza</p>
+    </div>
+</div>
+    <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Code to the Javascript File -->
+    <script src = "assets/javascript/game.js"></script>
+</body>
+</html>
